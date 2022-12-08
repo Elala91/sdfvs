@@ -1,0 +1,43 @@
+*{  margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+        color: white;}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;}
+ul{ display: flex;
+    list-style-type: none;}
+a{text-decoration: none;}
+li{margin-left: 20px;
+    color: white;}
+html{background-color:  #212529;
+    ;}
+.logo{width: 50px;}
+.hire{
+    background: #FFB742;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    color: black;}
+.line1{font-size: 20px;
+margin-bottom: 20px;
+margin-top: 40px;}
+.line2{font-size: 32px;
+margin-bottom: 30px;}
+.line3{font-size:15px;}
+section{text-align: center;}
+.achievements{display:flex;
+justify-content: space-between;}
+.ach{display: flex;
+    align-items: center;
+background: #292B2E;
+padding: 20px;}
+.icon{width: 40px;
+margin-right: 15px;}
+.achp{margin-right: 20px;}
